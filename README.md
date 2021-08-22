@@ -18,7 +18,6 @@
 - Click `Use this template`
   - Create a repo at yourName/dotfiles
   - Make sure the repo is public
-  - Global search for `bartr` and update
 - The dotfiles are cloned to `/workspaces/.codespaces/.persistedshare/dotfiles/` when a `Codespace` is created
   - This command in install.sh links at `$HOME/dotfiles` for convenience
     - `ln -s /workspaces/.codespaces/.persistedshare/dotfiles $HOME/dotfiles`
