@@ -39,6 +39,6 @@ git config --global url.https://github.com/retaildevcrews/.insteadOf r://
 git config --global core.editor vi
 
 # login to GitHub container registry if $PAT set
-if [[ -n $PAT ]]; then
-  docker login ghcr.io -u joheec -p $PAT
-fi
+# if [[ -n $PAT ]]; then
+#   docker login ghcr.io -u joheec -p $PAT
+# fi
